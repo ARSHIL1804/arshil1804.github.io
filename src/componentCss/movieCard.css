@@ -1,0 +1,33 @@
+.Card{
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 3px 10px 0 #aaa;
+}
+.Card-Body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-Text{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(53, 177, 53);
+  font-weight:bold;
+}
+.button{
+  outline: none;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  border:0px solid white ;
+  border-top: 1px solid black;
+  padding: 5px;
+}

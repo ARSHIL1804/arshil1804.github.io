@@ -1,0 +1,68 @@
+.MovieInfo{
+  width: 80%;
+  display: flex;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 #aaa;
+}
+.MovieInfo .movie-image >img{
+ width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+.movie-info{
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+.movie-name{
+  font-family: monospace;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.movie-summary {
+  margin-top: 10px;
+}
+.movie-summary > span{
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: bold;
+}
+.movie-summary > val{
+  font-size:18px;
+  letter-spacing: 0.2ch;
+  line-height:10px;
+}
+.buy{
+  margin-top: 10px;
+  background-color: black;
+  border-radius:20px;
+  color:white;
+  padding: 10px 40px;
+}
+.genre .genre-item{
+  padding: 5px;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(9, 206, 137);
+}
+.genre{
+  margin-top: 10px;
+}
+.genre-item{
+  margin-left: 5px;
+}
+
+@media screen and (max-width:782px){
+  .MovieInfo{
+    flex-direction: column;
+  }
+  .MovieInfo .movie-image >img{
+     width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 0;
+     height: 300px;
+   }
+}
